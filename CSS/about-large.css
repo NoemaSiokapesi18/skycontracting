@@ -1,98 +1,15 @@
-@media only screen and (min-width: 60em) {
-    header img {
-		width: 100%;
-	}
 
-	.sec-company-info h1 {
-		font-size: 22px;
-	}
-
-	.motto {
-		letter-spacing: 1pt;
-		font-size: 18px;
-		margin-left: 10px;
-    }
-
-    h3 {
-      font-size: 17px;
+    header, nav, main, footer {
+      max-width: 1200px;
+      margin:auto;
   }
-
-    .main-nav {
-		display: flex;
-    }
-    
-	.main-nav li:first-child {
-        font-size: 16px;
-        display: none;
-    }
-    
-	.main-nav li {
-		display: block;
-		flex: 1 1 100%;
-    }
-
-    nav li a {
-        font-size: 16px;
-    }
-
-    .hero-weather-info {
-      left: 50px;
-      width: 100%;
-    }
-
-    .table-grid > span {
-      padding: 5px;
-    }
-
-    #article-container, #contact {
-      grid-template-columns: 1fr 1fr;
-    }
-
-  footer {
-      font-size: 16px;
-      width: 90%;
-      margin: 0 auto;
-  }    
-
-
-
-  .gallery-container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  figure img {
-    box-shadow: none;
-}
-
-  figcaption {    
-    display: block;  
-  }
-
-  figure {    
-      box-shadow: 0 5px 10px 0 rgb(226, 84, 84);
-  }
-
-  figure:hover {
-    box-shadow: 0 10px 20px 0 #1e3603;
-  }
-
-  form label.sps {
-    padding: .4rem 0;
-  }
-
-    .towns {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .town-card {
-      display : block;
-    }
-
-    .town-card img {
-      max-width: 100%;
-    }
-
-    .text-container p {
-      font-size: 1.1rem;
-    }
-}
+  
+  
+  
+  nav ul {padding-left: 2%;}
+  nav li {width:auto;}
+  nav a {padding: .5rem 1rem;}
+  
+  main figure { width: 31%;}
+  
+  div.news {column-count: 3;}
