@@ -1,77 +1,98 @@
-@media only screen and (min-width: 64em) {
-    nav button { display: none; }
+@media only screen and (min-width: 60em) {
+    header img {
+		width: 100%;
+	}
 
-    nav ul {
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;    
-        border-top: 1px solid rgba(34, 72, 100, 0.7);
+	.sec-company-info h1 {
+		font-size: 22px;
+	}
+
+	.motto {
+		letter-spacing: 1pt;
+		font-size: 18px;
+		margin-left: 10px;
+    }
+
+    h3 {
+      font-size: 17px;
+  }
+
+    .main-nav {
+		display: flex;
     }
     
-    nav ul li a {
-        display: block;
-        padding: .8rem 2%;
-        text-decoration: none;
-    }
-    nav ul li.active a {
-        background-color: rgba(24,63,88,0.2);
-        color: #eee;
-    }
-    
-    /* nav ul.hide {
+	.main-nav li:first-child {
+        font-size: 16px;
         display: none;
-    } */
+    }
     
+	.main-nav li {
+		display: block;
+		flex: 1 1 100%;
+    }
+
     nav li a {
-        display: block;
-        color: #FFF;
-    }
-    nav li a:hover {
-        background-color: rgba(24,63,88,0.4);
-        color: #eee
-    }
-    nav li a:active {
-        background-color: rgba(24,63,88,0.9);
-        color: #FFF;
+        font-size: 16px;
     }
 
-    nav ul li a {
-        padding: .6rem 1rem; 
-      }
-
-    #map iframe {
-        width: 400px;
-        height: 300px;
+    .hero-weather-info {
+      left: 50px;
+      width: 100%;
     }
-    #backgroundImage {
-        width: 100%;
-        background-repeat: no-repeat;
-        }
 
-        .galleryWrapper {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            align-items: center;
-            justify-items: center;
-            gap: 20px;
-        }
+    .table-grid > span {
+      padding: 5px;
+    }
+
+    #article-container, #contact {
+      grid-template-columns: 1fr 1fr;
+    }
+
+  footer {
+      font-size: 16px;
+      width: 90%;
+      margin: 0 auto;
+  }    
+
+
+
+  .gallery-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  figure img {
+    box-shadow: none;
 }
 
-@media only screen and (min-width: 45em) and (max-width: 64em) {
-   
+  figcaption {    
+    display: block;  
+  }
 
-    .galleryWrapper {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-items: center;
-        gap: 20px;
+  figure {    
+      box-shadow: 0 5px 10px 0 rgb(226, 84, 84);
+  }
+
+  figure:hover {
+    box-shadow: 0 10px 20px 0 #1e3603;
+  }
+
+  form label.sps {
+    padding: .4rem 0;
+  }
+
+    .towns {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    
+
+    .town-card {
+      display : block;
+    }
+
+    .town-card img {
+      max-width: 100%;
+    }
+
+    .text-container p {
+      font-size: 1.1rem;
+    }
 }
