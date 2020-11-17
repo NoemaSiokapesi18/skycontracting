@@ -1,38 +1,77 @@
-@media only screen and (min-width: 60em) {
-    body{
-        width: 100%;
-    }
+@media only screen and (min-width: 64em) {
+    nav button { display: none; }
+
     nav ul {
         display: flex;
-    }
-
-    nav ul li {
-        flex: 1 1 70%;
-    }
-
-    header h1,h2, h3, header img{
-        display:inline-block;
-        vertical-align:middle;
-    }
-    h1{
-        font-size: 3em;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;    
+        border-top: 1px solid rgba(34, 72, 100, 0.7);
     }
     
-    h2 {
-        font-size: 1.5em;
-    }
-    
-    p, table, nav {
-        font-size: 2.5em;
-    }
-    .img {
-        text-align: center;
-        align-content: center;
-     }
-     .center {
+    nav ul li a {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        padding: .8rem 2%;
+        text-decoration: none;
     }
+    nav ul li.active a {
+        background-color: rgba(24,63,88,0.2);
+        color: #eee;
+    }
+    
+    /* nav ul.hide {
+        display: none;
+    } */
+    
+    nav li a {
+        display: block;
+        color: #FFF;
+    }
+    nav li a:hover {
+        background-color: rgba(24,63,88,0.4);
+        color: #eee
+    }
+    nav li a:active {
+        background-color: rgba(24,63,88,0.9);
+        color: #FFF;
+    }
+
+    nav ul li a {
+        padding: .6rem 1rem; 
+      }
+
+    #map iframe {
+        width: 400px;
+        height: 300px;
+    }
+    #backgroundImage {
+        width: 100%;
+        background-repeat: no-repeat;
+        }
+
+        .galleryWrapper {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            justify-items: center;
+            gap: 20px;
+        }
+}
+
+@media only screen and (min-width: 45em) and (max-width: 64em) {
+   
+
+    .galleryWrapper {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 20px;
+    }
+    
 }
