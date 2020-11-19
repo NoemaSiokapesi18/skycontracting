@@ -12,8 +12,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    background-color: #5f3f03;
+    width: 40%;
+    background-color: #ecc273;
     display: none;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 header {
-	background-color: #5f3f03;
+	background-color: #ebbd6a;
 	display: flex;
 	align-items:center;
     justify-content:center;
@@ -33,7 +33,7 @@ header {
 }
 
 header img {
-	width: 70px;
+	width: 40px;
     height: auto;
 }
 
@@ -59,7 +59,7 @@ header img {
 nav {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-color: #1a1919;
+    background-color: #244610;
     box-shadow: 0 5px 10px #e4e5ec;
 }
 
