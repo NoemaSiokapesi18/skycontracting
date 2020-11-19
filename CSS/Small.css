@@ -5,7 +5,7 @@ body {
 	margin: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;  
-    width: 50%;
+    width: 100%;
 }
 
 #friday-banner {
@@ -13,7 +13,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f5f2ed;
+    background-color: #5f3f03;
     display: none;
 }
 
@@ -21,7 +21,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 10px;
-    color: #030303;
+    color: #acaa37;
 }
 
 header {
@@ -43,31 +43,31 @@ header img {
 }
 
 .sec-company-info h1 {
-	font-size: 16px;
+	font-size: 1.1rem;
     margin: 0 0 0 15px;
-    color: #131212;
+    color: #ebe2e2;
 }
 
 .motto {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: #ffffff;
+	color: #fffdfd;
 	margin: 8px 0;
-	font-size: 18px;
+	font-size: .7rem;
 }
 
 nav {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-color: #f7f6f5;
+    background-color: #1a1919;
     box-shadow: 0 5px 10px #e4e5ec;
 }
 
 .main-nav li:first-child {
     display: block;
-    background-color: #f8f7f5;
+    background-color: #131212;
     border: none;
-    font-size: 17px;
+    font-size: 1.3rem;
     padding: 10px;
 }
 
@@ -95,18 +95,18 @@ nav ul {
 
 nav li a {
     display: block;
-    color: #0c0c0c;
+    color: #f5f5f8;
     text-align: center;
     padding: .8rem 2%;
     text-decoration: none;
     font-size: .8em;
-    font-family: sans-serif;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
     border-top: 1px solid rgba(255,255,255, 0.3)
 }
 
 nav ul li.active a {
     background-color: rgba(255,200,87, 0.3);
-    color: #d42020;
+    color: #ffffff;
 }
 
 nav ul li a:hover {
@@ -117,7 +117,7 @@ nav ul li a:hover {
 
 .main-nav li:first-child a {
     border-top: none;
-    color: #141413;
+    color: #f1c150;
 }
 
 .main-nav li:first-child a:hover {
@@ -153,13 +153,13 @@ main {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 17px;
-    color: #1f2041;
-    font-family: monospace;
+    font-size: 1.5em;
+    color: #e9e9f1;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 span {
@@ -167,15 +167,15 @@ h2 span {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .content-box {
     display: block;
     margin: 10px auto;
     padding: 15px;
-    background-color: #f3f3f7;
-    color: #0f0f0f;
+    background-color: #eeeef5;
+    color: #ffffff;
     border-radius: 5px;    
     box-shadow: 0 10px 20px 0 rgba(216, 124, 124, 0.6);
     box-sizing: border-box;
@@ -203,13 +203,13 @@ h3 {
 	position: absolute;
 	top: 20px;
     left: 10px;
-	background: #faf9f7;
-	border: 2px solid #f8f5ee;
+	background: #f1efec;
+	border: 2px solid #ffc857;
 	padding: 0.5rem;
     box-shadow: 0 10px 20px 0 rgb(235, 233, 233);
     opacity: 0.9;
     width: 55%;
-    font-size: 16px;
+    font-size: 0.7rem;
 }
 
 hr {
@@ -247,8 +247,8 @@ hr {
 .article, .contact-info {
     text-align: left;
     padding: 0 30px 30px 30px;
-    background-color: #f1eee7;
-    color: #121213;
+    background-color: #f7f4f0;
+    color: #141414;
     border-radius: 10px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 1); 
     box-sizing: border-box;
@@ -270,8 +270,8 @@ hr {
 }
 
 .btn {
-    color: #0e0d0d;
-    background: #ebebf3;
+    color: #ffc857;
+    background: #1f2041;
     border-radius: 0.8em;
     margin: 5% auto;
     padding: 6px;
@@ -342,7 +342,7 @@ hr {
 footer {
     width: 100%;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 14px;  
+    font-size: 0.75em;  
     line-height: 1.5em;
 	background-color: #5f3f03;  
     color: #f2f1f8;
@@ -384,7 +384,7 @@ figure img {
 
 figure img[data-src] {
     filter: blur(0);
-  
+   
 }
 
 figcaption {
@@ -397,6 +397,7 @@ figcaption {
 figure:hover {
     box-shadow: none;
 }
+
 
 
 .form-container {
@@ -470,19 +471,18 @@ form label.top input:required:valid {
 }
 
 
-
 .general-info {
     text-align: left;
 }
 
 .general-info a {
     text-decoration: none;
-    color: #f5f4f3;
+    color: #ffc857;
 }
 
 .town-container {
-    background-color: #e3e4e9;
-    color: #111010;
+    background-color: #1f2041;
+    color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 1);
     padding: 10px 20px 20px 20px;
@@ -514,18 +514,18 @@ form label.top input:required:valid {
 }
 
 .text-container h3 {
-    font-size: 14px;
+    font-size: 2rem;
     text-shadow: 2px 2px #ffffff;
 }
 
 .text-container h4 {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-style: italic;
     margin-top : -0.8em;
 }
 
 .text-container p {
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .town-card div, .town-card img {

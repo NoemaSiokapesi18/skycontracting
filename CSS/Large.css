@@ -4,17 +4,17 @@
 	}
 
 	.sec-company-info h1 {
-		font-size: 22px;
+		font-size: 2.5rem;
 	}
 
 	.motto {
-		letter-spacing: 1pt;
-		font-size: 18px;
+		letter-spacing: 2.5pt;
+		font-size: 1.2rem;
 		margin-left: 10px;
     }
 
     h3 {
-      font-size: 17px;
+      font-size: 1.2em;
   }
 
     .main-nav {
@@ -22,7 +22,7 @@
     }
     
 	.main-nav li:first-child {
-        font-size: 16px;
+        font-size: 1.6rem;
         display: none;
     }
     
@@ -32,12 +32,12 @@
     }
 
     nav li a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .hero-weather-info {
       left: 50px;
-      width: 100%;
+      width: 30%;
     }
 
     .table-grid > span {
@@ -49,12 +49,14 @@
     }
 
   footer {
-      font-size: 16px;
+      font-size: 0.9em;
       width: 90%;
       margin: 0 auto;
   }    
 
-
+  /*
+    Gallery Styles
+  */
 
   .gallery-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -73,12 +75,16 @@
   }
 
   figure:hover {
-    box-shadow: 0 10px 20px 0 #1e3603;
+    box-shadow: 0 10px 20px 0 #67a521;
   }
 
   form label.sps {
     padding: .4rem 0;
   }
+
+  /*
+      Index Styles
+  */
 
     .towns {
         grid-template-columns: 1fr 1fr 1fr;
