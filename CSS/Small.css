@@ -12,8 +12,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40%;
-    background-color: #ecc273;
+    width: 100%;
+    background-color: #1116aa;
     display: none;
 }
 
@@ -21,11 +21,11 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 10px;
-    color: #acaa37;
+    color: #070707;
 }
 
 header {
-	background-color: #ebbd6a;
+	background-color: #fffafa;
 	display: flex;
 	align-items:center;
     justify-content:center;
@@ -33,7 +33,7 @@ header {
 }
 
 header img {
-	width: 40px;
+	width: 70px;
     height: auto;
 }
 
@@ -43,29 +43,29 @@ header img {
 }
 
 .sec-company-info h1 {
-	font-size: 1.1rem;
+	font-size: 2rem;
     margin: 0 0 0 15px;
-    color: #ebe2e2;
+    color: #161515;
 }
 
 .motto {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: #fffdfd;
+	color: #070707;
 	margin: 8px 0;
-	font-size: .7rem;
+	font-size: 1.7rem;
 }
 
 nav {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-color: #244610;
+    background-color: #633c09;
     box-shadow: 0 5px 10px #e4e5ec;
 }
 
 .main-nav li:first-child {
     display: block;
-    background-color: #131212;
+    background-color: #ebe7e3;
     border: none;
     font-size: 1.3rem;
     padding: 10px;
@@ -95,7 +95,7 @@ nav ul {
 
 nav li a {
     display: block;
-    color: #f5f5f8;
+    color: #f8eded;
     text-align: center;
     padding: .8rem 2%;
     text-decoration: none;
@@ -111,17 +111,17 @@ nav ul li.active a {
 
 nav ul li a:hover {
     background-color: rgba(255,200,87, 0.4);
-    color: rgba(255,255,255, 0.7);
+    color: rgba(241, 232, 232, 0.7);
     box-shadow: 5px 5px 5px #c56060;
 }
 
 .main-nav li:first-child a {
     border-top: none;
-    color: #f1c150;
+    color: #eee5e5;
 }
 
 .main-nav li:first-child a:hover {
-    background-color: #633c09;
+    background-color: #f7f5f2;
 }
 
 .responsive li {
@@ -146,45 +146,46 @@ main {
 #content-container {
     width: 85%;
     margin: 0 auto;
-    background-color: #5f3f03;
+    background-color: #f0ece6;
     padding: 10px;
 }
 
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 3em;
+    color: black;
 }
 
 h2 {
-    font-size: 1.5em;
-    color: #e9e9f1;
+    font-size: 1.7em;
+    color: #080808;
     font-family: 'Open Sans', sans-serif;
 }
 
 h2 span {
-    color: #f5ecec;
+    color: #0c0c0c;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .content-box {
     display: block;
     margin: 10px auto;
     padding: 15px;
-    background-color: #eeeef5;
-    color: #ffffff;
+    background-color: #c28a22;
+    color: #fff9f9;
     border-radius: 5px;    
     box-shadow: 0 10px 20px 0 rgba(216, 124, 124, 0.6);
     box-sizing: border-box;
 }
 
 .hero-image {
-    max-width: 50%;
-    max-height: 50%;
-    min-height: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 250px;
 }
 
 .hero-container {    
@@ -196,20 +197,20 @@ h3 {
 
 .hero-container h3 {
     margin: 0;
-    color: #ffffff;
+    color: #0f0e0e;
 }
 
 .hero-weather-info {
 	position: absolute;
 	top: 20px;
     left: 10px;
-	background: #f1efec;
+	background: #f1ab1e;
 	border: 2px solid #ffc857;
 	padding: 0.5rem;
     box-shadow: 0 10px 20px 0 rgb(235, 233, 233);
     opacity: 0.9;
     width: 55%;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 }
 
 hr {
@@ -232,7 +233,7 @@ hr {
 
 .head-value {
     text-align: left;
-    color: #faf8f4;
+    color: #080808;
 }
 
 #article-container, #contact {
@@ -247,8 +248,8 @@ hr {
 .article, .contact-info {
     text-align: left;
     padding: 0 30px 30px 30px;
-    background-color: #f7f4f0;
-    color: #141414;
+    background-color: #f1f2fc;
+    color: #080808;
     border-radius: 10px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 1); 
     box-sizing: border-box;
@@ -277,7 +278,7 @@ hr {
     padding: 6px;
     text-decoration: none;
     width: 100px;
-    font-size: 0.9em;
+    font-size: 2em;
 }
  
 .article-show, .article-hide {
@@ -344,7 +345,7 @@ footer {
     font-family: 'Share Tech Mono', monospace;
     font-size: 0.75em;  
     line-height: 1.5em;
-	background-color: #5f3f03;  
+	background-color:#5f3f03 ;  
     color: #f2f1f8;
 	display: flex;
     flex: 0 1 100%;
@@ -357,6 +358,9 @@ footer a {
     color: #e0dff0;
 }
 
+/*
+    Gallery Styles
+*/
 
 .gallery-container {
     display: grid;
@@ -384,21 +388,23 @@ figure img {
 
 figure img[data-src] {
     filter: blur(0);
-   
+    /*filter: blur(0.2em);*/
 }
 
 figcaption {
     display: none;
     font-size: small;
     padding: 10px 0 10px 0;
-    color: #1f2041;
+    color: #111010;
 }
 
 figure:hover {
     box-shadow: none;
 }
 
-
+/*
+    Storm Center Forms
+*/
 
 .form-container {
     width: 450px;
@@ -425,7 +431,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #a50404;
+    color: #0c0c0c;
     font-size: 1rem;
     text-align: left;
 }
@@ -436,7 +442,7 @@ form label.top input, form label.top select, form label.top textarea {
     border: 1px solid #2b0b0b;
     border-radius: 5px;
     padding: .75rem;
-    color: #1f2041;
+    color: #0c0c0c;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);    
     box-sizing: border-box;
@@ -445,21 +451,22 @@ form label.top input, form label.top select, form label.top textarea {
 form label.sbs {
     display: block;
     padding: .5rem 0;
-    color: #1f2041;
+    color: #0b0c0c;
     text-align: left;
 }
 
 form input.submitBtn {
     border: none;
     background-color: #a50404;
-    color: #fff;
+    color: rgb(15, 15, 15);
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;     
     width: 96%;
     max-width: 20rem;
     box-sizing: border-box;
-
+    /*display: block;
+    margin-right: auto;*/
 }
 
 form label.top input:required {
@@ -470,6 +477,9 @@ form label.top input:required:valid {
     border-left: 6px solid #004c00;
 }
 
+/*
+    Index Styles
+*/
 
 .general-info {
     text-align: left;
@@ -477,12 +487,12 @@ form label.top input:required:valid {
 
 .general-info a {
     text-decoration: none;
-    color: #ffc857;
+    color: #fcfafa;
 }
 
 .town-container {
     background-color: #1f2041;
-    color: #ffffff;
+    color: #050505;
     border-radius: 5px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 1);
     padding: 10px 20px 20px 20px;
