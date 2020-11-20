@@ -1,28 +1,152 @@
-<div class="container">
-    <div style="text-align:center">
-      <h2>Contact Us</h2>
-      <p>Swing by for a cup of coffee, or leave us a message:</p>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="/w3images/map.jpg" style="width:100%">
-      </div>
-      <div class="column">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <title>Preston Idaho</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Assignment weather Siokapesi Noema, CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        <meta name="author" content="Siokapesi Noema">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/Small.css">
+        <link rel="stylesheet" href="CSS/medium.css">
+        <link rel="stylesheet" href="CSS/Large.css">
+        <link href="https://fonts.google.com/specimen/Martel" rel="stylesheet">
+    </head>
+    <body>          
+            
+            <header id="main-header">     
+                <div id="friday-banner">
+                   
+                </div>     
+                <picture>
+                    <img src="Gallery/logo.png" alt="Sky Contracting">
+                </picture>
+                <section class="sec-company-info">
+                    <h1>Sky Contracting</h1>
+                    <div class="motto">Most affordable Construction Company</div>
+                </section>
+            </header>
+    <nav>
+        <ul class="main-nav">
+            <li><a href="#" onclick="toggleMenu()"><span class="exit-button">&#215;</span><span class="hamburger">&#9776; Menu</span></a></li>
+            <li><a href="Index.html">Index</a></li>
+            <li><a href="About.html" >About</a></li>
+            <li><a href="Gallery.html">Galley</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li class="active"><a href="Contact.html">Contact</a></li>
+            <li><a href="Review.html">Review</a></li>
+        </ul>
+    </nav>
+
+    <div id="content-container">
+
+        <main>
+            <section class="form-container">
+                <h2>Sky Contracting <span>Center</span></h2>   
+                <form method="GET" action="Thanks.html">
+                    <h3>Request Free Estimate</h3>
+                    <fieldset>
+                        <legend>Fill this form</legend>
+                        <label class="top">
+                            Full Name *
+                            <input type="text" name="fullname" pattern="[A-Za-z ]+" minlength="5" required>
+                        </label>
+
+                        <label class="top">
+                            Email
+                            <input type="email" name="email" placeholder="someone@ghweather.com">
+                        </label>
+
+                        <label class="top">
+                            Phone Number *
+                            <input type="tel" name="phone" placeholder="12348649871" required>
+                        </label>
+
+                        <label class="top">
+                            ZIp Code *
+                            <input type="number" name="zip" required>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Customer Details</legend>
+                        <label class="top">
+                            Date
+                            <input type="date" name="stormdate">
+                        </label>
+
+                        <label class="top">
+                            Concrete Finisher
+                            <input name="concretetype" list="concretefinisherlist">
+                            <datalist id="concretelist">
+                                <option value="Broom Finishing"></option>
+                                <option value="Expose Aggregate"></option>
+                                <option value="Stamped Finishing"></option>
+                                <option value="Smooth Finishing"></option>
+                                <option value="Other"></option>
+                            </datalist>
+                        </label>
+
+                        <label class="top">
+                          
+                            <input type="range" id="stormseverity" name="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                            <span id="stormseverityvalue">5</span>
+                        </label>
+
+                        <label class="top">
+                            Sky Contracting
+                                          
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Seattle Wa</legend>
+                        <div>Are you ready to start your job?</div>
+                        <label class="sbs">
+                            <input type="radio" name="dangerinfo" value="maybe"> Maybe
+                        </label>
+
+                        <label class="sbs">
+                            <input type="radio" name="dangerinfo" value="no"> No
+                        </label>
+
+                        <label class="sbs">
+                            <input type="radio" name="dangerinfo" value="yes"> Yes
+                        </label>
+
+
+                        <label class="top">
+                            Additional Information or Comments
+                            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Send My Storm Report" class="submitBtn">
+                </form>
+            </section>
+</main>
+            <section class="content-box">
+                <h3>Contact Information</h3>                
+                <div class="contact-info">
+                                
+                                   
+                            
+                    <p>Address: 125 Summit Ave S Preston Idaho 98089</p>
+                      <p>Phone Number: 231-232-4534</p>         
+                                       <p>Email: prestonweather@hotmail.org</p>
+                                   </div>
+                                   <br /><br />
+                               
+                           </div>
+                       </section>
+                   </main>
+               </div>
+               <footer>
+                   <p>&copy; <span id="copyright"></span> | Siokapesi Noema | Seattle | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p> 
+                   <span id="currentDate"></span>
+                       
+                  </footer>          
+  
+    <script src="js/myscript.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>
