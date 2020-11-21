@@ -34,7 +34,7 @@ padding: 2px;
 }
 
 header img {
-	width: 40px;
+	width: 100px;
     height: auto;
 }
 
@@ -155,6 +155,7 @@ main {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
+    text-decoration-color: #614204;
 }
 
 h2 {
