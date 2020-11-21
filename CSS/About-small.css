@@ -24,10 +24,10 @@ header h2{
 	font-weight: normal;
 }
 
-nav {background-color: #111;}
+nav {background-color: rgb(236, 232, 232);}
 nav ul{margin:0; padding: 0;}
 nav li {list-style-type: none;}
-nav li.active {background-color: #333}
+nav li.active {background-color: rgb(85, 52, 10)}
 nav a {
     display: block;
     padding: .8rem 0; /*44px min*/
