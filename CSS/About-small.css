@@ -24,14 +24,14 @@ header h2{
 	font-weight: normal;
 }
 
-nav {background-color: rgb(236, 232, 232);}
+nav {background-color: rgb(104, 57, 13);}
 nav ul{margin:0; padding: 0;}
 nav li {list-style-type: none;}
-nav li.active {background-color: rgb(85, 52, 10)}
+nav li.active {background-color: rgb(241, 238, 233)}
 nav a {
     display: block;
     padding: .8rem 0; /*44px min*/
-    color: #eee;
+    color: rgb(8, 8, 8);
     text-align: center;
     text-decoration: none;
 }
