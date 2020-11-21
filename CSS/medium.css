@@ -8,7 +8,7 @@
 	}
 
 	.motto {
-		font-size: 1.1rem;
+		font-size: 2rem;
     }   
     
     .main-nav li:first-child {
@@ -42,15 +42,15 @@
 
     th {
         background-color: #ffc857;
-        color: #2b0b0b;
+        color: #111111;
         padding: 15px;
         border-left: 2px solid #ffffff;
         border-right: 2px solid #ffffff;
     }
 
     td {
-        background-color: #2b0b0b;
-        color: #ffc857; 
+        background-color: #f3e5e5;
+        color: #0f0f0f; 
         border-left: 2px solid #ffffff;
         border-right: 2px solid #ffffff;
         padding: 15px;
@@ -128,7 +128,7 @@
     } 
 
     .text-container p {
-      font-size: 1.05rem;      
+      font-size: 1.85rem;      
       box-sizing: border-box;
   }
 }
