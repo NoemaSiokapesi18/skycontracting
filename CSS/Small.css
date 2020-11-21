@@ -153,12 +153,12 @@ main {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 3em;
+    font-size: 0.5em;
     color: black;
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 0.5em;
     color: #080808;
     font-family: 'Open Sans', sans-serif;
 }
