@@ -95,7 +95,7 @@ nav ul {
 
 nav li a {
     display: block;
-    color: #130101;
+    color: #fcfafa;
     text-align: center;
     padding: .8rem 2%;
     text-decoration: none;
@@ -106,7 +106,7 @@ nav li a {
 
 nav ul li.active a {
     background-color: rgba(255,200,87, 0.3);
-    color: #ffffff;
+    color: #f5d08c;
 }
 
 nav ul li a:hover {
